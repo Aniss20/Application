@@ -1,7 +1,7 @@
 button {
     padding: 8px 20px;
     background-color:lemonchiffon;
-    color:beige;
+    color:hotpink;
     border: none;
     cursor: pointer;
     margin-right: 10px;
@@ -26,5 +26,13 @@ button:active {
 button:focus {
 
     outline: none;
+
+}
+
+@media screen and (max-width: 500px) {
+    p{
+        font-size: 16px;
+        
+    }
     
 }
